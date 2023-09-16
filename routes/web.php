@@ -19,7 +19,7 @@ use App\Http\Middleware\EnsureTokenIsValid;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 
